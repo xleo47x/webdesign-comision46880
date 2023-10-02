@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Descanso Hotel Termal</title>
+    <link rel="icon" href="./assets/imgs/icon.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="./assets/imgs/logov3.png" alt="Hotel El Descanso" height="60"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active fs-5" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="./pages/info.html">Sobre Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="./pages/galeria.html">Galería</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="./pages/habitaciones.html">Habitaciones</a>
+                    </li>
+                    <!-- <li class="nav-item dropdown">
+                        <a class="nav-link d-inline-block dropdown-toggle fs-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Habitaciones
+                        </a>
+                        <ul class="dropdown-menu bg-dark">
+                            <li>
+                                <a class="dropdown-item" href="./pages/habitaciones.html">Habitacion Doble</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="./pages/habitaciones.html">Habitacion Triple</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="./pages/habitaciones.html">Habitacion Cuadruple</a>
+                            </li>
+                        </ul>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="./pages/contacto.html"> Contacto</a>
+                    </li>
+                    <li>
+                        <div class="container-btn">
+                            <a class="btn btn-res navbar-nav-dark me-1 container-fluid justify-content-start fs-5" type="button" href="./pages/reservar.html">Reservar</a>
+                        </div>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+        <!--header sin btsp
+        <header class="header">
+            <div class="logo">
+                <a href="#">
+                    <img class="logo-img" src="./assets/imgs/logov3.png" alt="Hotel El Descanso">
+                </a>
+            </div>
+            <nav class="nav-bar">
+                <ul>
+                    <li><a href="#"><span class="nav-indicator">INCIO</span></a></li>
+                    <li>
+                        <a href="./pages/info.html">MÁS INFO</a>
+                    </li>
+                    <li>
+                        <a href="./pages/galeria.html">GALERIA</a>
+                    </li>
+                    <li>
+                        <a href="./pages/habitaciones.html">HABITACIONES</a>
+                    </li>
+                    <li>
+                        <a href="./pages/contacto.html">CONTACTO</a>
+                    </li>
+                    <li>
+                        <a href="./pages/reservar.html" class="btn-res"><button>RESERVAR</button></a>
+                    </li>
+                </ul>
+            </nav>   
+        </header> -->
+    <main>
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="./assets/imgs/carousel-1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./assets/imgs/pool-2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/imgs/carousel-2.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!--  card <div class="index-main position-absolute "> 
+            <div class="container ms-auto col">
+                <div class="-index-banner-title row 6"><h2>Conocenos</h2></div>
+                <div class="index-banner-text row 6"><span>El Descanso Hotel Termal</span></div>
+            </div>
+        </div> -->
+        <section class="description"> 
+            <div class="description-container">
+                <div class="description-container-item">
+                    <div class="description-title">
+                        <h1>Hotel El Descanso</h1>
+                        <h2>"Ven y disfruta de la calidez de nuestro hotel termal en familia."</h2>
+                    </div>
+                    <div class="description-text">
+                        <p>
+                            Ubicado en el idílico entorno de Termas de Río Hondo, nuestro hotel te invita a sumergirte en un oasis de tranquilidad y bienestar.
+                        </p>
+                        <p> 
+                            Con una ubicación privilegiada en medio de la belleza natural y las aguas termales rejuvenecedoras de la ciudad, Hotel "El Descanso" es el refugio perfecto para tus escapadas de relajación.
+                        </p>
+                        <p>
+                            No solo te ofrecemos un lugar para quedarte; te ofrecemos una experiencia rejuvenecedora y placentera que te llevarás contigo mucho después de tu partida. Ven y descubre el equilibrio perfecto entre descanso y aventura en el corazón de las termas.
+                        </p>
+                        <div class="leer-mas">
+                            <a href="./pages/info.html">
+                                Leer más
+                            </a>
+                        </div>      
+                    </div>
+                </div>
+                <div class="description-img">
+                    <img src="./assets/imgs/hotel-familia.jpg" alt="foto de una familia en la pileta">
+                </div>
+            </div>
+        </section>  
+        <section class="galeria-index">
+            <a class="galeria-index-link" href="./pages/galeria.html">GALERIA</a>
+            <div class="galeria-fotos">
+                <img src="./assets/imgs/termas-centro.jpg" alt="foto de plaza principal de la ciudad de termas de rio hondo">
+                <img src="./assets/imgs/hotel3.jpg" alt="foto-2">
+                <img src="./assets/imgs/wall.jpg" alt="foto-3">
+                <img src="./assets/imgs/hab.jpeg" alt="foto-4">
+        </section>    
+        <div class="suites-title">
+            <h4>Habitaciones Disponibles</h4>
+        </div>
+        <section class="card-container">
+            <article class="cards">
+                <h3 class="card-title">Habitacion Doble</h3>
+                <img src="./assets/imgs/habdoble.jpg" alt="habitacion doble">
+                <div class="card-inside">
+                        <a href="./pages/habitaciones.html">
+                            <button class="card-inside-btn">VER MÁS</button>
+                        </a>
+                    </div> 
+                </div>
+            </article> 
+            <article class="cards">
+                <h3 class="card-title">Habitacion Triple</h3>
+                <img src="./assets/imgs/habtriple.jpg" alt="habitacion triple">
+                <div class="card-inside">
+                        <a href="./pages/habitaciones.html">
+                            <button class="card-inside-btn">VER MÁS</button>
+                        </a>
+                    </div>
+                </div> 
+            </article>
+            <article class="cards">
+                <h3 class="card-title">Habitacion Cuadruple</h3>    
+                <img src="./assets/imgs/habcuadruple.jpg" alt="habitacion doble">
+                <div class="card-inside">
+                        <a href="./pages/habitaciones.html">
+                            <button class="card-inside-btn">VER MÁS</button>
+                        </a>
+                    </div> 
+                </div>  
+            </article>    
+        </section>
+        <div class="wtsp">
+            <a href="https://www.whatsapp.com" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+        </div>
+    </main>   
+    <footer id="footer">
+        <div class="main-footer">
+            <div class="footer-left">
+                <p>EL  DESCANSO - HOTEL TERMAL <br><br>
+                Whatsapp: +54 9 3858 123456 <br> E-mail: reservas@asdasd.com <br>
+                Legales: Las tarifas vigentes incluyen desayuno buffet,cochera e impuestos. <br> Precios por habitación por día. <br>
+                </p>
+            </div>
+            <div class="footer-right">
+                <div class="social">
+                    <p>Seguinos:</p>
+                    <div class="social-icons">
+                    <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <!-- esto sirve para wtsp <a href="https://www.whatsapp.com" target="_blank"><i class="fab fa-whatsapp"></i></a> -->
+                    </div>
+                </div>  
+                <div class="direction">
+                    <div class="location-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <p>Argentina, SDE. Termas De Rio Hondo</p>
+                </div>
+            </div>
+        </div>
+        <div class="bot-footer">
+            <div class="rights">
+                <p>&copy HOTEL EL DESCANSO 2023</p>
+            </div>
+            <div class="design-by">
+                <span>Diseñado por Leandro Cajal</span>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+</html>
